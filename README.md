@@ -14,7 +14,7 @@ Dee's Currency Converter is a user-friendly web application built with React tha
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/deegakuya/Dee.s-currrency-convertor-app
+   git clone https://github.com/deegakuya/Dee.s-Currency-App-2
    ```
 
 ## Usage
