@@ -1,0 +1,86 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(248, 165, 206); /* Hot pink background for the entire app */
+}
+
+.card-container {
+  width: 600px;
+  padding: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff; /* White background for the card */
+  color: #000; /* Black text for contrast */
+}
+
+/* Updated Styles for headings */
+h1 {
+  color: #fff; /* White text */
+  background-color: #ff1493; /* Hot pink background */
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  display: inline-block; /* Makes the background only as wide as the content */
+  border-radius: 5px;
+}
+
+/* Styles for labels */
+label {
+  color: #000; /* Black text */
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Styles for the 'Convert' button */
+button {
+  color: #fff; /* White text */
+  background-color: #000; /* Black background */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  color: #fff; /* White text */
+  background-color: #ff1493; /* Hot pink background on hover */
+  border-color: #ff1493; /* Hot pink border on hover */
+}
+
+/* Styling the input and select elements */
+input[type="number"], select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #000; /* Black border */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+}
+
+/* Conversion result styling */
+.conversion-result {
+  text-align: center;
+  font-size: 1.8em; /* Moderately large font size for readability */
+  font-weight: bold; /* Bold font weight for emphasis */
+  color: #000; /* Black text for contrast */
+  margin-top: 20px;
+  padding: 20px; /* Spacing inside the box */
+  border: 3px solid #ff1493; /* Hot pink border */
+  background-color: #fff; /* White background for the box */
+  border-radius: 8px; /* Rounded corners for the box */
+  display: inline-block; /* Ensures the box size fits the content */
+  margin-bottom: 20px; /* Spacing below the box */
+}
+
+
+
+
+
+
